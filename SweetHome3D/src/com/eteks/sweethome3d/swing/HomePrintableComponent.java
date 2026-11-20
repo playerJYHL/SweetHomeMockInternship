@@ -344,7 +344,6 @@ public class HomePrintableComponent extends JComponent implements Printable {
     
     View furnitureView = this.controller.getFurnitureController().getView();
     if (furnitureView != null
-        && (homePrint == null || homePrint.isFurniturePrinted())) if (furnitureView != null
             && (homePrint == null || homePrint.isFurniturePrinted())) {
       FurnitureTable furnitureTable = furnitureView instanceof FurnitureTable
               ? (FurnitureTable)furnitureView
